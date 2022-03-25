@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Lezione HTML</title>
+    <style>
+      img {
+        max-width: 300px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <picture>
+      <source
+        type="image/webp"
+        sizes="(min-width: 900px) 50vw, 100vw"
+        srcset="
+          assets/business-man.webp  500w,
+          assets/business-man.webp 1000w,
+          assets/business-man.webp 1500w
+        "
+      />
+      <img
+        sizes="(min-width: 900px) 50vw, 100vw"
+        srcset="
+          assets/business-man.jpg  500w,
+          assets/business-man.jpg 1000w,
+          assets/business-man.jpg 1500w
+        "
+        src="assets/business-man.jpg"
+      />
+    </picture>
+    <picture>
+      <source
+        type="image/webp"
+        sizes="(min-width: 900px) 50vw, 100vw"
+        srcset="
+          assets/ok-hand.webp  500w,
+          assets/ok-hand.webp 1000w,
+          assets/ok-hand.webp 1500w
+        "
+      />
+      <img
+        sizes="(min-width: 900px) 50vw, 100vw"
+        srcset="
+          assets/ok-hand.jpg  500w,
+          assets/ok-hand.jpg 1000w,
+          assets/ok-hand.jpg 1500w
+        "
+        src="assets/ok-hand.jpg"
+      />
+    </picture>
+  </body>
+</html>
